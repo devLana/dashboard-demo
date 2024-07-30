@@ -1,0 +1,50 @@
+.reports h3 {
+  margin-bottom: 15px;
+}
+
+.report {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(var(--primary-color-light));
+  padding: 10px 15px;
+  background-color: #fff;
+}
+
+.report:not(:last-of-type) {
+  border-bottom: none;
+}
+
+.report > div > p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.report > div > time {
+  font-size: 13px;
+}
+
+.report > a,
+.report > button {
+  padding: 8px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 110px;
+  text-align: center;
+}
+
+.report > a {
+  background-color: rgb(var(--primary-color-light));
+}
+
+.report > button {
+  background-color: rgb(var(--primary-color));
+  color: #fff;
+}
+
+@media screen and (min-width: 1200px) {
+  .reports {
+    flex: 1;
+  }
+}

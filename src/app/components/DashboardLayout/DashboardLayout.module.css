@@ -1,0 +1,13 @@
+.container {
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 900px) {
+  .container {
+    display: flex;
+  }
+
+  .mainWrapper {
+    flex: 1;
+  }
+}

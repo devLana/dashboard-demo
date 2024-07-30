@@ -1,0 +1,35 @@
+@media screen and (max-width: 899px) {
+  .table {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .table thead {
+    background-color: rgb(var(--primary-color-light));
+  }
+
+  .table > thead th,
+  .table > tbody td {
+    padding: 10px;
+  }
+
+  .table > thead th {
+    text-align: left;
+  }
+
+  .table > tbody > tr:nth-child(even) {
+    background-color: #fff;
+  }
+
+  .table > tbody > tr > td:first-child {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+}

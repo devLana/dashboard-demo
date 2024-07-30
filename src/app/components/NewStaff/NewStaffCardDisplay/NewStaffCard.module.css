@@ -1,0 +1,38 @@
+@media screen and (max-width: 900px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px 30px;
+  }
+
+  .card {
+    background-color: #fff;
+    border: 1px solid rgb(var(--primary-color-light));
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 15px -10px rgb(var(--primary-color-dark));
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 2px;
+    margin-bottom: 25px;
+  }
+
+  .details {
+    text-align: center;
+  }
+
+  .details p {
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .wrapper {
+    display: none;
+  }
+}

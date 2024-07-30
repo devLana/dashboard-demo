@@ -1,0 +1,14 @@
+.chart {
+  margin-bottom: 25px;
+  /* max-width: 1000px; */
+}
+
+.chart h3 {
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 1200px) {
+  .chart {
+    flex: 1;
+  }
+}
