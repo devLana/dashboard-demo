@@ -12,7 +12,7 @@ const NewStaffCard = ({ data }: { data: Staff[] }) => (
         <div className={styles.details}>
           <p>{position}</p>
           <time dateTime={appointmentDate}>
-            {new Date(appointmentDate).toISOString()}
+            {new Date(appointmentDate).toDateString()}
           </time>
         </div>
       </div>
